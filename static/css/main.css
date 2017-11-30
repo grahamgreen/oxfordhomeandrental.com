@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#main {
+    background: url("/static/img/houseBack.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.whole_height {
+    height: 100%;
+}
+
+.transparent {
+     /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    /*Opacity end*/
+}
+
+#header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+    background-color: #2D6059;
+    
+}
+
+#header_image_div {
+    margin-right: 20px;
+    padding: 0;
+    height: 200px;
+}
+
+#header_image {
+    height: 200px;
+    width: 194px;
+}
+
+#header_text {
+    height: 200px;
+    padding: 20px;
+}
+
+#header_right {
+    height: 200px;
+    padding: 18px;
+    padding-right: 0px;
+    margin-left: 15px;
+    
+}
+
+#header_right img {
+    height: 164px;
+    margin-right: 0px;
+}
+
+#content {
+    background-color: #C4C9C8;
+    margin-left: 16px;
+    margin-bottom: 40px;
+    padding-right: 1%;
+}
+
+#menu {
+    background-color: #996A48;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    height: 90%;
+}
+
+.display_img {
+    width: 100%;
+    height: auto;
+}
